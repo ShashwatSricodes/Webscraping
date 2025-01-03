@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
     <script src="/static/main.js" defer></script>
 </head>
 <body>
-    <h1>Attendance Details</h1>
-    <div id="attendance">
-        <p>Loading attendance data...</p>
+    <div class="container">
+        <div class="card">
+            <h1 class="card-title">Attendance Details</h1>
+            <div id="attendance" class="card-content">
+                <p>Loading attendance data...</p>
+            </div>
+            <canvas id="attendanceChart" width="250" height="250"></canvas>
+        </div>
     </div>
 </body>
 </html>
