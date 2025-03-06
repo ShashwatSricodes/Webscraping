@@ -13,8 +13,8 @@ def login_and_scrape_attendance():
 
     # Replace with your actual credentials
     login_data = {
-        'LoginForm[username]': '2023CSD0552',
-        'LoginForm[password]': 'myytdream',
+        'LoginForm[username]': '',
+        'LoginForm[password]': '',
         '_csrf': csrf_token
     }
     headers = {'User-Agent': 'Mozilla/5.0'}
