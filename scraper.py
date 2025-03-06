@@ -4,7 +4,7 @@ import re
 
 def login_and_scrape_attendance():
     session = requests.Session()
-    login_url = 'https://mmmut.samarth.edu.in/index.php/site/login'
+    login_url = 
 
     # Request the login page to retrieve the CSRF token
     login_page = session.get(login_url)
